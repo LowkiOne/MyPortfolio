@@ -1,5 +1,7 @@
+import CoomingSoon from "../components/ComingSoon";
+
 function ExperiencePage() {
-  return <p>Under development</p>;
+  return <CoomingSoon />;
 }
 
 export default ExperiencePage;
