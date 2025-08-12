@@ -1,0 +1,33 @@
+#about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  width: 100%;
+  height: 100%;
+  padding: 0.2rem;
+  box-sizing: border-box;
+}
+
+.about-me-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0.3rem;
+  box-sizing: border-box;
+
+  border-style: solid;
+  border-radius: 1rem;
+
+  border-color: var(--color-border);
+  box-shadow: 0 0 8px var(--color-shadow);
+}
+
+.about-me-page:not(:first-child) {
+  width: 49%;
+  height: 40%;
+  border-radius: 5rem;
+  padding: 2rem;
+}

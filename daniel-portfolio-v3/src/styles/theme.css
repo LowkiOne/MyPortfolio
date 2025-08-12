@@ -1,0 +1,75 @@
+:root {
+  --color-body-bg: hsl(251, 59%, 6%);
+  --color-header-bg: linear-gradient(
+    to right,
+    hsl(0, 0%, 20%),
+    hsl(0, 0%, 30%)
+  );
+  --color-main-bg: linear-gradient(
+    to right,
+    hsl(251, 59%, 18%),
+    hsl(251, 59%, 28%)
+  );
+  --color-aside-bg: linear-gradient(
+    to bottom,
+    hsl(251, 59%, 20%),
+    hsl(251, 59%, 26%)
+  );
+  --color-section-bg: linear-gradient(
+    to bottom,
+    hsl(251, 59%, 22%),
+    hsl(251, 59%, 30%)
+  );
+  --color-footer-bg: linear-gradient(
+    to right,
+    hsl(0, 0%, 24%),
+    hsl(0, 0%, 34%)
+  );
+
+  --color-overlay-bg: hsl(251, 59%, 6%, 0.8);
+
+  --color-text: hsl(0, 0%, 88%);
+  --color-button-bg: hsl(253, 100%, 7%);
+
+  --color-link-hover: hsla(0, 0%, 88%, 0.5);
+  --color-link-bg-hover: hsl(251, 59%, 15%);
+
+  --color-border: hsl(251, 59%, 15%);
+  --color-shadow: rgba(20, 20, 60, 0.6);
+}
+
+[data-theme="light"] {
+  --color-body-bg: hsl(0, 0%, 72%);
+  --color-header-bg: linear-gradient(
+    to right,
+    hsl(0, 0%, 68%),
+    hsl(0, 0%, 76%)
+  );
+  --color-main-bg: linear-gradient(to right, hsl(0, 0%, 70%), hsl(0, 0%, 78%));
+  --color-aside-bg: linear-gradient(
+    to bottom,
+    hsl(0, 0%, 71%),
+    hsl(0, 0%, 76%)
+  );
+  --color-section-bg: linear-gradient(
+    to bottom,
+    hsl(0, 0%, 73%),
+    hsl(0, 0%, 79%)
+  );
+  --color-footer-bg: linear-gradient(
+    to right,
+    hsl(0, 0%, 68%),
+    hsl(0, 0%, 74%)
+  );
+
+  --color-overlay-bg: hsl(0, 0%, 72%, 0.8);
+
+  --color-text: hsl(0, 0%, 12%);
+  --color-button-bg: hsl(0, 0%, 60%);
+
+  --color-link-hover: hsla(0, 0%, 10%, 0.6);
+  --color-link-bg-hover: hsl(0, 0%, 66%);
+
+  --color-border: hsl(0, 0%, 45%);
+  --color-shadow: rgba(40, 40, 40, 0.2);
+}

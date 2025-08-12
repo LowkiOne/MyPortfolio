@@ -1,0 +1,33 @@
+import type { Skill } from "../utilitis/interfaces";
+import { SKILL_CATEGORIES } from "./SkillCategory";
+
+export const SKILLS_ARRAY: Skill[] = [
+    { title: "Agile", level: 4, category: SKILL_CATEGORIES.MANAGEMENT },
+    { title: "API", level: 3, category: SKILL_CATEGORIES.LIBRARY },
+    { title: "ASP.NET Core Identity", level: 4, category: SKILL_CATEGORIES.LIBRARY },
+    { title: "Adaptability", level: 5, category: SKILL_CATEGORIES.CHARACTER },
+    { title: "C#", level: 5, category: SKILL_CATEGORIES.LANGUAGE },
+    { title: "CSS", level: 3, category: SKILL_CATEGORIES.LANGUAGE },
+    { title: "Clean Code", level: 4, category: SKILL_CATEGORIES.MANAGEMENT },
+    { title: "Collaboration", level: 5, category: SKILL_CATEGORIES.CHARACTER },
+    { title: "Communication", level: 5, category: SKILL_CATEGORIES.CHARACTER },
+    { title: "Entityframework", level: 4, category: SKILL_CATEGORIES.LIBRARY },
+    { title: "HTML", level: 4, category: SKILL_CATEGORIES.LANGUAGE },
+    { title: "IAM", level: 3, category: SKILL_CATEGORIES.LIBRARY },
+    { title: "Identity Core", level: 3, category: SKILL_CATEGORIES.LIBRARY },
+    { title: "JavaScript", level: 4, category: SKILL_CATEGORIES.LANGUAGE },
+    { title: "Kanban", level: 3, category: SKILL_CATEGORIES.MANAGEMENT },
+    { title: "LINQ", level: 4, category: SKILL_CATEGORIES.LIBRARY },
+    { title: "MySQL", level: 4, category: SKILL_CATEGORIES.LIBRARY },
+    { title: "Organization skills", level: 4, category: SKILL_CATEGORIES.CHARACTER },
+    { title: "PAM", level: 3, category: SKILL_CATEGORIES.LIBRARY },
+    { title: "Problem solving", level: 5, category: SKILL_CATEGORIES.CHARACTER },
+    { title: "Razor", level: 3, category: SKILL_CATEGORIES.LIBRARY },
+    { title: "RESTful API", level: 4, category: SKILL_CATEGORIES.LIBRARY },
+    { title: "React", level: 4, category: SKILL_CATEGORIES.LIBRARY },
+    { title: "Risk Management", level: 3, category: SKILL_CATEGORIES.MANAGEMENT },
+    { title: "SQL Queries", level: 4, category: SKILL_CATEGORIES.LANGUAGE },
+    { title: "Scrum", level: 4, category: SKILL_CATEGORIES.MANAGEMENT },
+    { title: "Time Management", level: 5, category: SKILL_CATEGORIES.CHARACTER },
+    { title: "TypeScript", level: 4, category: SKILL_CATEGORIES.LANGUAGE },
+  ];
