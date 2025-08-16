@@ -47,8 +47,8 @@ function CertificatePage() {
         </li>
       </ul>
       <div className="certificate-navigation">
-        <button onClick={goPrev}>&lt; Prev</button>
-        <button onClick={goNext}>Next &gt;</button>
+        <button onClick={goPrev}>&lt;</button>
+        <button onClick={goNext}>&gt;</button>
       </div>
     </>
   );
