@@ -1,5 +1,7 @@
+import CoomingSoon from "../components/ComingSoon";
+
 function HomePage() {
-  return <p>Under development</p>;
+  return <CoomingSoon />;
 }
 
 export default HomePage;
