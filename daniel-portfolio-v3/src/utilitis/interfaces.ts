@@ -40,9 +40,10 @@ export interface Certificate {
 
 export interface Experience {
     title: string;
-    skills: Skill[];
+    skills?: Skill[];
     description: string;
     city: string;
+    onGoing: boolean;
 }
 
 export interface NavItem {
