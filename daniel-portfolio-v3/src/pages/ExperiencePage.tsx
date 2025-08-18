@@ -1,4 +1,5 @@
 import TruncatedText from "../components/TruncatedText";
+import "../styles/experiencePage.css";
 import { useState } from "react";
 
 import { EXPERIENCE_ARRAY } from "../data/experienceData";
@@ -32,7 +33,7 @@ function ExperiencePage() {
           </div>
         </li>
       </ul>
-      <div className="expificate-navigation">
+      <div className="experience-navigation">
         <button onClick={goPrev}>&lt;</button>
         <button onClick={goNext}>&gt;</button>
       </div>
