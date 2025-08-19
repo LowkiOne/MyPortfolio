@@ -29,6 +29,11 @@ function ExperiencePage() {
             <TruncatedText text={exp.description} limit={300} />
           </div>
           <div>
+            <ul className="skills-acquired">
+              {exp.skills?.map((skill) => (
+                <li key={skill.title}>{skill.title}</li>
+              ))}
+            </ul>
             <p>
               {exp.employer}, {exp.city}
             </p>
