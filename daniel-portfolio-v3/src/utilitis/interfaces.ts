@@ -43,6 +43,7 @@ export interface Experience {
     skills?: Skill[];
     description: string;
     city: string;
+    employer: string;
     onGoing: boolean;
 }
 

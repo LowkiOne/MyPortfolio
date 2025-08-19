@@ -15,7 +15,8 @@ export const EXPERIENCE_ARRAY: Experience[] = [
         efficient way to work for best quality. Good communication,
         planning, and flexibility are really important when working with
         this method.`,
-      city: "Gothenburg",
+        city: "Gothenburg",
+      employer: "Göteborg Stad",
       onGoing: true,
     },
     {
@@ -31,7 +32,8 @@ export const EXPERIENCE_ARRAY: Experience[] = [
         efficient way to work for best quality. Good communication,
         planning, and flexibility are really important when working with
         this method.`,
-      city: "Gothenburg",
+        city: "Gothenburg",
+      employer: "Göteborg Stad",
       onGoing: true,
     },
     // Add more experience here...

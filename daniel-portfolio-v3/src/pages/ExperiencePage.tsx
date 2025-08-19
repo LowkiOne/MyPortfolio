@@ -29,7 +29,9 @@ function ExperiencePage() {
             <TruncatedText text={exp.description} limit={300} />
           </div>
           <div>
-            <p>{exp.city}</p>
+            <p>
+              {exp.employer}, {exp.city}
+            </p>
           </div>
         </li>
       </ul>
