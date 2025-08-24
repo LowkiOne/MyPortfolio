@@ -70,7 +70,8 @@ header {
   max-height: fit-content;
   box-sizing: border-box;
 
-  border-style: groove;
+  border-style: none;
+  border-bottom-style: groove;
   border-radius: 0.5rem;
 
   background-color: var(--color-header-bg);
@@ -110,7 +111,6 @@ main {
   min-height: 0;
   box-sizing: border-box;
 
-  border-style: groove;
   border-radius: 0.5rem;
 
   background-color: var(--color-main-bg);
@@ -124,9 +124,14 @@ aside {
   justify-content: center;
 
   padding: 0.2rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
   width: 15%;
 
-  border-right-style: groove;
+  border-style: groove;
+  border-left-style: none;
+
+  border-radius: 20px;
 
   box-sizing: border-box;
 
@@ -202,7 +207,8 @@ footer {
   padding: 0.25rem;
   margin-bottom: 0.2rem;
 
-  border-style: groove;
+  border-style: none;
+  border-top-style: groove;
   border-radius: 0.5rem;
 
   font-size: small;
