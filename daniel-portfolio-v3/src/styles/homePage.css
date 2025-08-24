@@ -23,7 +23,7 @@
   box-shadow: 0 0 8px var(--color-shadow);
 }
 
-.home > a:hover {
+.home > div > a:hover {
   cursor: pointer;
   transform: translate(1px, -1px);
 
