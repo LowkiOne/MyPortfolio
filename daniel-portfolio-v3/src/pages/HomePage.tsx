@@ -10,7 +10,7 @@ function HomePage() {
         <p>
           My Portfolio is still under development and I work on it every day. I
           have planned all the frontend and backend, but adding more feauters as
-          I develop.
+          I develop. More information and updates will be shown here.
         </p>
         <a
           href="https://github.com/users/LowkiOne/projects/12/views/1"
