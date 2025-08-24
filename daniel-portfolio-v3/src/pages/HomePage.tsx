@@ -22,14 +22,14 @@ function HomePage() {
       </div>
       <div>
         <h3>Plan</h3>
-        <ul>
+        <ol>
           <li>Create frontend website layout</li>
           <li>Create the frontend layout for all pages</li>
           <li>Create the frontend pages data</li>
           <li>Create backend API & database connection</li>
           <li>Consume the backend API for this react project</li>
           <li>Create the frontend Admin Page</li>
-        </ul>
+        </ol>
       </div>
     </div>
   );
