@@ -27,10 +27,10 @@ export const CERTIFICATE_ARRAY: Certificate[] = [
         ].includes(s.title)),
       description: `An in-depth course on modern React development, covering hooks,
         context API, TypeScript integration, and state management patterns.`,
-      complete: new Date("2025-06-01"),
-      done: true,
-      certificatePdf: "/UdemyAgileFundamentals.pdf",
-      certificateLink: "https://www.udemy.com/certificate/UC-a1273ba0-ac26-4b2a-aa96-b3ab0f668eec/"
+      complete: new Date(),
+      done: false,
+      certificatePdf: "",
+      certificateLink: ""
     },
     // Add more certificates here...
   ];
