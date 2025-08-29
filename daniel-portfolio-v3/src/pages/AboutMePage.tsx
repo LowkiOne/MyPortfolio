@@ -37,11 +37,19 @@ function AboutMePage() {
       </div>
       <div className="about-me-page">
         <h3>My Intrests</h3>
-        <p></p>
+        <p>
+          I like to hit the gym and learn more about important life skills like
+          economy, health. Now that I'm a software developer I want to
+          continuously gain experience in this field, even on my spare time, so
+          I can be a great asset.
+        </p>
       </div>
       <div className="about-me-page">
         <h3>Future Goals</h3>
-        <p></p>
+        <p>
+          I want experience with all part of software development, but want to
+          specialize in the backend part and build great, clean and secure code.
+        </p>
       </div>
     </div>
   );
